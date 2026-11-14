@@ -40,7 +40,7 @@
             <nav class="hidden md:flex space-x-6 text-sm font-medium tracking-wide">
                 <a href="#dj" class="hover:text-accentGold transition">01. DJ & Sound</a>
                 <a href="#sports" class="hover:text-accentGold transition">02. Sports Management</a>
-                <a href="#research" class="hover:text-accentGold transition">03. Fan Research</a>
+                <a href="#research" class="hover:text-accentGold transition">03. Research</a>
                 <a href="#copy" class="hover:text-accentGold transition">04. Copywriter</a>
                 <a href="mailto:ana.costa@phd.iag.puc-rio.br" class="text-accentGold hover:text-white transition flex items-center gap-1">
                     <i class="fa-solid fa-envelope"></i> 05. Contact
@@ -56,7 +56,6 @@
 
     <!-- Hero Section with Header Image & Mantra -->
     <section class="relative min-h-[90vh] flex flex-col items-center justify-center pt-28 pb-16 px-6 overflow-hidden">
-        <!-- Header Image Background -->
         <div class="absolute inset-0 z-0">
             <img src="https://raw.githubusercontent.com/missanakazz/livesite/main/header_site2.jpg" alt="Ana Kazz Header" onerror="this.src='https://images.unsplash.com/photo-1511578314322-379afb476865?q=80&w=1600&auto=format&fit=crop'" class="w-full h-full object-cover opacity-60">
             <div class="absolute inset-0 bg-gradient-to-b from-darkBg/40 via-darkBg/75 to-darkBg"></div>
@@ -99,10 +98,16 @@
                     <div><i class="fa-solid fa-compact-disc text-accentGold mr-2"></i> Eclectic Curatorship</div>
                 </div>
             </div>
-            <div class="relative group">
-                <div class="absolute -inset-1 bg-gradient-to-r from-accentGold to-purple-600 rounded-2xl blur opacity-30 group-hover:opacity-60 transition duration-500"></div>
-                <div class="relative aspect-video rounded-xl overflow-hidden shadow-2xl bg-black border border-gray-800">
-                    <iframe class="w-full h-full" src="https://www.youtube.com/embed/-CjSpWjPW94" title="Ana Kazz DJ Set" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <!-- DJ Photo & Vertical/Enlarged Video Container -->
+            <div class="space-y-6">
+                <div class="rounded-2xl overflow-hidden border border-gray-800 shadow-2xl h-56">
+                    <img src="https://raw.githubusercontent.com/missanakazz/livesite/main/site_dj.jpg" alt="Ana Kazz DJ" onerror="this.src='https://images.unsplash.com/photo-1571266028243-3716f02d2d2e?q=80&w=800&auto=format&fit=crop'" class="w-full h-full object-cover">
+                </div>
+                <div class="relative group">
+                    <div class="absolute -inset-1 bg-gradient-to-r from-accentGold to-purple-600 rounded-2xl blur opacity-30 group-hover:opacity-60 transition duration-500"></div>
+                    <div class="relative max-w-sm mx-auto aspect-[9/16] max-h-[450px] rounded-xl overflow-hidden shadow-2xl bg-black border border-gray-800">
+                        <iframe class="w-full h-full" src="https://www.youtube.com/embed/-CjSpWjPW94" title="Ana Kazz DJ Set" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
                 </div>
             </div>
         </div>
@@ -134,18 +139,14 @@
                                 <i class="fa-brands fa-linkedin-in mr-2 text-base"></i> Connect on LinkedIn
                             </a>
                         </div>
-                        <div class="flex flex-wrap gap-6">
-                            <div>
-                                <span class="block text-2xl font-bold text-accentGold font-serif">20+</span>
-                                <span class="text-xs text-gray-400">Years Experience</span>
-                            </div>
-                            <div>
-                                <span class="block text-xl font-bold text-accentGold font-serif">CBF • COB • World Rowing</span>
-                                <span class="text-xs text-gray-400">Major Organizations</span>
-                            </div>
+                        <div class="space-y-2">
+                            <span class="text-xs uppercase tracking-widest text-accentGold font-semibold block">freelancer and regular Jobs in major organizations</span>
+                            <p class="text-xs text-gray-300 leading-relaxed font-medium">
+                                Brazilian Volleyball Federation, Brazilian Football Federation, Absolut Sport, World Rowing, Brazilian Olympic Committee
+                            </p>
                         </div>
                     </div>
-                    <!-- Two photos side-by-side -->
+                    <!-- Two photos side-by-side (smaller and balanced) -->
                     <div class="p-6 grid grid-cols-2 gap-4 bg-darkBg/40">
                         <div class="aspect-[4/3] rounded-xl overflow-hidden border border-gray-800 shadow-md">
                             <img src="https://raw.githubusercontent.com/missanakazz/livesite/main/site_profissional.png" alt="Ana Kazz Professional" onerror="this.src='https://images.unsplash.com/photo-1517649763962-0c6232660102?q=80&w=600&auto=format&fit=crop'" class="w-full h-full object-cover hover:scale-105 transition duration-500">
@@ -191,7 +192,7 @@
                         </div>
                         <div class="p-4 rounded-lg bg-darkBg/50 border border-gray-800/80">
                             <div class="font-semibold text-white">FIFA Series 2026 Cuiabá, Brazil</div>
-                            <div class="text-xs text-accentGold">Team Liaison Officer (TLO) for the Canada Women’s National Team (04/2026)</div>
+                            <div class="text-xs text-accentGold">International Friendly Series Operations (04/2026)</div>
                         </div>
                         <div class="p-4 rounded-lg bg-darkBg/50 border border-gray-800/80">
                             <div class="font-semibold text-white">ABSOLUT Sport CONMEBOL Official Hospitality Agency, Brazil</div>
@@ -246,19 +247,127 @@
         </div>
     </section>
 
-    <!-- Part 3: Fan Research (Academic Call to Action) -->
-    <section id="research" class="py-24 px-6 border-t border-gray-800 bg-[#0e1523] relative overflow-hidden">
-        <div class="max-w-5xl mx-auto text-center relative z-10 bg-cardBg border border-accentGold/30 p-12 rounded-3xl shadow-2xl">
-            <span class="text-accentGold text-xs uppercase tracking-widest font-bold mb-3 block">Part 03</span>
-            <h2 class="font-serif text-3xl md:text-5xl font-bold mb-6">
-                May all beings everywhere be happy and free by knowledge: <span class="text-accentGold italic font-normal">Fan Research</span>
-            </h2>
-            <p class="text-gray-300 text-lg max-w-2xl mx-auto mb-8 font-light">
-                Exploring global consumption behavior profiles of national football team fans across Brazil, Australia, Germany, USA, and Japan through rigorous empirical strategy and marketing frameworks.
-            </p>
-            <a href="https://missanakazz.github.io/research/" target="_blank" class="inline-flex items-center px-10 py-4 bg-accentGold text-darkBg font-semibold rounded-full hover:bg-white transition text-base shadow-xl shadow-accentGold/20">
-                View Site <i class="fa-solid fa-arrow-right ml-3"></i>
-            </a>
+    <!-- Part 3: Research (Academic Background, Papers & Current Fan Research) -->
+    <section id="research" class="py-24 px-6 border-t border-gray-800 bg-[#0e1523]">
+        <div class="max-w-7xl mx-auto space-y-16">
+            <div class="text-center max-w-3xl mx-auto">
+                <span class="text-accentGold text-xs uppercase tracking-widest font-bold mb-2 block">Part 03</span>
+                <h2 class="font-serif text-3xl md:text-4xl font-bold mb-4">
+                    May all beings everywhere be happy and free by knowledge: <span class="text-accentGold italic font-normal">Research</span>
+                </h2>
+            </div>
+
+            <!-- 3.1 Academic Background -->
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-8 items-center bg-cardBg p-8 md:p-12 rounded-3xl border border-gray-800 shadow-2xl">
+                <div class="lg:col-span-2 space-y-6">
+                    <div class="flex items-center space-x-3 mb-6">
+                        <i class="fa-solid fa-graduation-cap text-accentGold text-2xl"></i>
+                        <h3 class="font-serif text-2xl font-bold text-white">Academic Background</h3>
+                    </div>
+                    
+                    <div class="space-y-4 text-sm text-gray-300">
+                        <div class="border-l-2 border-accentGold pl-4 py-1">
+                            <span class="text-xs font-semibold text-accentGold">10/2023 — Present</span>
+                            <h4 class="font-bold text-white">PhD in Administration & Marketing</h4>
+                            <p class="text-gray-400 text-xs mt-1">PUC-Rio, Rio de Janeiro, Brazil — Researching the global profile of women’s football fans.</p>
+                        </div>
+                        <div class="border-l-2 border-gray-700 pl-4 py-1">
+                            <span class="text-xs font-semibold text-gray-400">10/2017 — 02/2020</span>
+                            <h4 class="font-bold text-white">Master of Arts — Sport for Development and Politics</h4>
+                            <p class="text-gray-400 text-xs mt-1">German University of Sport, Cologne, Germany — Thesis on personal brand of football players from German and Brazilian teams on Instagram. Degree: M.A., Grade: Good (Cum Laude).</p>
+                        </div>
+                        <div class="border-l-2 border-gray-700 pl-4 py-1">
+                            <span class="text-xs font-semibold text-gray-400">03/2009 — 03/2010</span>
+                            <h4 class="font-bold text-white">MBA in Marketing</h4>
+                            <p class="text-gray-400 text-xs mt-1">PUC-Rio, Brazil — Dissertation on strategic planning in the fitness industry. Grade: Good (Cum Laude).</p>
+                        </div>
+                        <div class="border-l-2 border-gray-700 pl-4 py-1">
+                            <span class="text-xs font-semibold text-gray-400">03/1996 — 12/1999</span>
+                            <h4 class="font-bold text-white">Bachelor's Degree — Social Communication / Journalism</h4>
+                            <p class="text-gray-400 text-xs mt-1">PUC-Rio, Brazil — Degree: Bachelor, Grade: Good (Cum Laude).</p>
+                        </div>
+                    </div>
+
+                    <!-- Highlighted Lattes & Google Scholar buttons -->
+                    <div class="pt-6 flex flex-wrap gap-4">
+                        <a href="https://lattes.cnpq.br/6358726842750809" target="_blank" class="px-6 py-3 bg-accentGold text-darkBg font-semibold rounded-full hover:bg-white transition text-xs flex items-center shadow-lg shadow-accentGold/20">
+                            <i class="fa-solid fa-id-card mr-2"></i> Lattes Curriculum
+                        </a>
+                        <a href="https://scholar.google.com.br/citations?user=n7osqhoAAAAJ&hl=pt-BR" target="_blank" class="px-6 py-3 border border-accentGold text-accentGold font-semibold rounded-full hover:bg-accentGold hover:text-darkBg transition text-xs flex items-center">
+                            <i class="fa-solid fa-book-open mr-2"></i> Google Scholar Profile
+                        </a>
+                    </div>
+                </div>
+
+                <div class="rounded-2xl overflow-hidden border border-gray-800 shadow-xl bg-darkBg">
+                    <img src="https://raw.githubusercontent.com/missanakazz/livesite/main/site_academic.png" alt="Academic Background" onerror="this.src='https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=600&auto=format&fit=crop'" class="w-full h-full object-cover">
+                </div>
+            </div>
+
+            <!-- 3.2 Papers & Books -->
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-8 items-center bg-cardBg p-8 md:p-12 rounded-3xl border border-gray-800 shadow-2xl">
+                <div class="rounded-2xl overflow-hidden border border-gray-800 shadow-xl bg-darkBg order-2 lg:order-1">
+                    <img src="https://raw.githubusercontent.com/missanakazz/livesite/main/site_book.webp" alt="Papers & Books" onerror="this.src='https://images.unsplash.com/photo-1497633762265-9d179a990aa6?q=80&w=600&auto=format&fit=crop'" class="w-full h-full object-cover">
+                </div>
+
+                <div class="lg:col-span-2 space-y-6 order-1 lg:order-2">
+                    <div class="flex items-center space-x-3 mb-4">
+                        <i class="fa-solid fa-book text-accentGold text-2xl"></i>
+                        <h3 class="font-serif text-2xl font-bold text-white">Papers & Books</h3>
+                    </div>
+
+                    <div class="space-y-4 text-sm text-gray-300">
+                        <div class="p-4 rounded-xl bg-darkBg/50 border border-gray-800">
+                            <span class="text-xs text-accentGold font-semibold">2024 • Springer Science/Business Media</span>
+                            <h4 class="font-bold text-white mt-1">Book Chapter: Brazil</h4>
+                            <p class="text-xs text-gray-400 mt-1">Main author of the chapter on Brazil in the book <em>“Management of sport organizations at the crossroad of responsibility and sustainability: perceptions, practices, and prospects around the world”</em>.</p>
+                            <a href="https://link.springer.com/chapter/10.1007/978-3-031-52489-9_5" target="_blank" class="inline-flex items-center text-xs text-accentGold mt-2 hover:underline">Read Chapter <i class="fa-solid fa-arrow-up-right-from-square ml-1"></i></a>
+                        </div>
+
+                        <div class="p-4 rounded-xl bg-darkBg/50 border border-gray-800">
+                            <span class="text-xs text-accentGold font-semibold">2023 • Soccer & Society</span>
+                            <h4 class="font-bold text-white mt-1">Brand Building and Image Perception in Women Football</h4>
+                            <p class="text-xs text-gray-400 mt-1">Main author of the article <em>"Brand building and image perception in women football: a cross-country comparison between Brazil and Germany”</em>.</p>
+                            <a href="https://www.tandfonline.com/doi/full/10.1080/14660970.2023.2300074" target="_blank" class="inline-flex items-center text-xs text-accentGold mt-2 hover:underline">Read Article <i class="fa-solid fa-arrow-up-right-from-square ml-1"></i></a>
+                        </div>
+
+                        <div class="p-4 rounded-xl bg-darkBg/50 border border-gray-800">
+                            <span class="text-xs text-accentGold font-semibold">2022 • Int. J. Sport Management and Marketing (Vol. 22)</span>
+                            <h4 class="font-bold text-white mt-1">Determinants of Personal Brand Construction</h4>
+                            <p class="text-xs text-gray-400 mt-1">Main author of the article <em>"Determinants of personal brand construction of national football players on Instagram”</em>.</p>
+                            <a href="https://www.inderscienceonline.com/doi/abs/10.1504/IJSMM.2022.124046" target="_blank" class="inline-flex items-center text-xs text-accentGold mt-2 hover:underline">Read Article <i class="fa-solid fa-arrow-up-right-from-square ml-1"></i></a>
+                        </div>
+
+                        <div class="p-4 rounded-xl bg-darkBg/50 border border-gray-800">
+                            <span class="text-xs text-accentGold font-semibold">2022 • Springer / Palgrave Macmillan</span>
+                            <h4 class="font-bold text-white mt-1">Women’s Football in Latin America (Volume 1 - Brazil)</h4>
+                            <p class="text-xs text-gray-400 mt-1">Co-editor and author of three chapters of the book, co-authored with Jorge Dorfman Knijnik.</p>
+                            <a href="https://link.springer.com/book/10.1007/978-3-031-07976-4#toc" target="_blank" class="inline-flex items-center text-xs text-accentGold mt-2 hover:underline">View Book <i class="fa-solid fa-arrow-up-right-from-square ml-1"></i></a>
+                        </div>
+
+                        <div class="p-4 rounded-xl bg-darkBg/50 border border-gray-800">
+                            <span class="text-xs text-accentGold font-semibold">08/2020 • São Paulo Football Federation</span>
+                            <h4 class="font-bold text-white mt-1">Women's Football Program in São Paulo</h4>
+                            <p class="text-xs text-gray-400 mt-1">Proponent and director of the Personal Brand Management of Athletes and Fan Management program for women's football.</p>
+                            <a href="https://futebolpaulista.com.br/Noticias/Detalhe.aspx?Noticia=17287" target="_blank" class="inline-flex items-center text-xs text-accentGold mt-2 hover:underline">Read News <i class="fa-solid fa-arrow-up-right-from-square ml-1"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 3.3 Current Fan Research Call to Action -->
+            <div class="text-center bg-cardBg border border-accentGold/30 p-12 rounded-3xl shadow-2xl relative overflow-hidden">
+                <span class="text-accentGold text-xs uppercase tracking-widest font-bold mb-3 block">Ongoing Study</span>
+                <h3 class="font-serif text-2xl md:text-3xl font-bold mb-4 text-white">
+                    Global Fan Consumption Behavior Profiles
+                </h3>
+                <p class="text-gray-300 text-base max-w-2xl mx-auto mb-8 font-light leading-relaxed">
+                    Exploring global consumption behavior profiles of national football team fans across Brazil, Australia, Germany, USA, and Japan through rigorous empirical strategy and marketing frameworks.
+                </p>
+                <a href="https://missanakazz.github.io/research/" target="_blank" class="inline-flex items-center px-10 py-4 bg-accentGold text-darkBg font-semibold rounded-full hover:bg-white transition text-base shadow-xl shadow-accentGold/20">
+                    View Research Site <i class="fa-solid fa-arrow-right ml-3"></i>
+                </a>
+            </div>
         </div>
     </section>
 
@@ -273,71 +382,72 @@
                 <p class="text-gray-400 text-lg">Copywriter and reviewer for high-profile lifestyle and cultural publications.</p>
             </div>
 
-            <!-- Magazine / Editorial Grid -->
-            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
-                <!-- Item 1 -->
-                <a href="https://lifestylemag.com/pt-br/edicao/lauren-bush-lauren/" target="_blank" class="group bg-cardBg rounded-xl overflow-hidden border border-gray-800 hover:border-accentGold transition duration-300 flex flex-col">
-                    <div class="aspect-[3/4] bg-gray-800 relative overflow-hidden">
-                        <img src="2025_LIFESTYLEMAG_LAUREN-BUSH-LAUREN_PT_ABERTO_compressed_page-0001.jpg" alt="Lauren Bush Lauren Edition" onerror="this.src='https://images.unsplash.com/photo-1544717305-2782549b5136?q=80&w=600&auto=format&fit=crop'" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
-                        <div class="absolute inset-0 bg-gradient-to-t from-darkBg via-transparent to-transparent opacity-80"></div>
-                        <div class="absolute bottom-4 left-4 right-4">
-                            <span class="text-xs text-accentGold font-semibold uppercase tracking-wider">Lifestyle Magazine</span>
-                            <h3 class="font-serif text-lg font-bold text-white">Lauren Bush Lauren</h3>
+            <div class="space-y-8">
+                <!-- Featured Magazine (Angélica - Horizontal) -->
+                <a href="https://lifestylemag.com/pt-br/edicao/angelica/" target="_blank" class="group block bg-cardBg rounded-2xl overflow-hidden border border-gray-800 hover:border-accentGold transition duration-300 shadow-xl">
+                    <div class="grid grid-cols-1 md:grid-cols-3 items-center">
+                        <div class="md:col-span-2 aspect-[16/9] md:aspect-[21/9] bg-gray-900 relative overflow-hidden">
+                            <img src="https://raw.githubusercontent.com/missanakazz/livesite/main/2024_LIFESTYLEMAG_Journal_angelica_aberta_compressed_compressed-imagens-9-scaled.jpg" alt="Angélica Edition" onerror="this.src='https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=1200&auto=format&fit=crop'" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
                         </div>
-                    </div>
-                    <div class="p-4 flex items-center justify-between text-xs text-gray-400 bg-darkBg/50">
-                        <span>Read Edition</span>
-                        <i class="fa-solid fa-arrow-up-right-from-square text-accentGold"></i>
+                        <div class="p-8">
+                            <span class="text-xs text-accentGold font-semibold uppercase tracking-wider">Featured Publication</span>
+                            <h3 class="font-serif text-2xl font-bold text-white mt-1 mb-2">Angélica Edition</h3>
+                            <p class="text-sm text-gray-400 mb-4">Copywriting and editorial review for Lifestyle Magazine.</p>
+                            <span class="inline-flex items-center text-xs font-semibold text-accentGold">Read Full Edition <i class="fa-solid fa-arrow-up-right-from-square ml-1"></i></span>
+                        </div>
                     </div>
                 </a>
 
-                <!-- Item 2 -->
-                <a href="https://lifestylemag.com/pt-br/edicao/angelica/" target="_blank" class="group bg-cardBg rounded-xl overflow-hidden border border-gray-800 hover:border-accentGold transition duration-300 flex flex-col">
-                    <div class="aspect-[3/4] bg-gray-800 relative overflow-hidden">
-                        <img src="2024_LIFESTYLEMAG_Journal_angelica_aberta_compressed_compressed-imagens-9-scaled.jpg" alt="Angélica Edition" onerror="this.src='https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=600&auto=format&fit=crop'" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
-                        <div class="absolute inset-0 bg-gradient-to-t from-darkBg via-transparent to-transparent opacity-80"></div>
-                        <div class="absolute bottom-4 left-4 right-4">
-                            <span class="text-xs text-accentGold font-semibold uppercase tracking-wider">Lifestyle Magazine</span>
-                            <h3 class="font-serif text-lg font-bold text-white">Angélica</h3>
+                <!-- Other Magazines Grid (Smaller) -->
+                <div class="grid grid-cols-1 sm:grid-cols-3 gap-8">
+                    <!-- Item 1: Lauren Bush -->
+                    <a href="https://lifestylemag.com/pt-br/edicao/lauren-bush-lauren/" target="_blank" class="group bg-cardBg rounded-xl overflow-hidden border border-gray-800 hover:border-accentGold transition duration-300 flex flex-col">
+                        <div class="aspect-[3/4] bg-gray-800 relative overflow-hidden">
+                            <img src="2025_LIFESTYLEMAG_LAUREN-BUSH-LAUREN_PT_ABERTO_compressed_page-0001.jpg" alt="Lauren Bush Lauren Edition" onerror="this.src='https://images.unsplash.com/photo-1544717305-2782549b5136?q=80&w=600&auto=format&fit=crop'" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+                            <div class="absolute inset-0 bg-gradient-to-t from-darkBg via-transparent to-transparent opacity-80"></div>
+                            <div class="absolute bottom-4 left-4 right-4">
+                                <span class="text-xs text-accentGold font-semibold uppercase tracking-wider">Lifestyle Magazine</span>
+                                <h3 class="font-serif text-base font-bold text-white">Lauren Bush Lauren</h3>
+                            </div>
                         </div>
-                    </div>
-                    <div class="p-4 flex items-center justify-between text-xs text-gray-400 bg-darkBg/50">
-                        <span>Read Edition</span>
-                        <i class="fa-solid fa-arrow-up-right-from-square text-accentGold"></i>
-                    </div>
-                </a>
+                        <div class="p-3 flex items-center justify-between text-xs text-gray-400 bg-darkBg/50">
+                            <span>Read Edition</span>
+                            <i class="fa-solid fa-arrow-up-right-from-square text-accentGold"></i>
+                        </div>
+                    </a>
 
-                <!-- Item 3 -->
-                <a href="https://lifestylemag.com/pt-br/edicao/claire-rose/" target="_blank" class="group bg-cardBg rounded-xl overflow-hidden border border-gray-800 hover:border-accentGold transition duration-300 flex flex-col">
-                    <div class="aspect-[3/4] bg-gray-800 relative overflow-hidden">
-                        <img src="2024_LIFESTYLEMAG_Journal_claire_rose_aberto_compressed_page-0001.jpg" alt="Claire Rose Edition" onerror="this.src='https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=600&auto=format&fit=crop'" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
-                        <div class="absolute inset-0 bg-gradient-to-t from-darkBg via-transparent to-transparent opacity-80"></div>
-                        <div class="absolute bottom-4 left-4 right-4">
-                            <span class="text-xs text-accentGold font-semibold uppercase tracking-wider">Lifestyle Magazine</span>
-                            <h3 class="font-serif text-lg font-bold text-white">Claire Rose</h3>
+                    <!-- Item 2: Claire Rose -->
+                    <a href="https://lifestylemag.com/pt-br/edicao/claire-rose/" target="_blank" class="group bg-cardBg rounded-xl overflow-hidden border border-gray-800 hover:border-accentGold transition duration-300 flex flex-col">
+                        <div class="aspect-[3/4] bg-gray-800 relative overflow-hidden">
+                            <img src="2024_LIFESTYLEMAG_Journal_claire_rose_aberto_compressed_page-0001.jpg" alt="Claire Rose Edition" onerror="this.src='https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=600&auto=format&fit=crop'" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+                            <div class="absolute inset-0 bg-gradient-to-t from-darkBg via-transparent to-transparent opacity-80"></div>
+                            <div class="absolute bottom-4 left-4 right-4">
+                                <span class="text-xs text-accentGold font-semibold uppercase tracking-wider">Lifestyle Magazine</span>
+                                <h3 class="font-serif text-base font-bold text-white">Claire Rose</h3>
+                            </div>
                         </div>
-                    </div>
-                    <div class="p-4 flex items-center justify-between text-xs text-gray-400 bg-darkBg/50">
-                        <span>Read Edition</span>
-                        <i class="fa-solid fa-arrow-up-right-from-square text-accentGold"></i>
-                    </div>
-                </a>
+                        <div class="p-3 flex items-center justify-between text-xs text-gray-400 bg-darkBg/50">
+                            <span>Read Edition</span>
+                            <i class="fa-solid fa-arrow-up-right-from-square text-accentGold"></i>
+                        </div>
+                    </a>
 
-                <!-- Item 4 -->
-                <a href="https://lifestylemag.com/pt-br/edicao/josefine-haaning-jensen/" target="_blank" class="group bg-cardBg rounded-xl overflow-hidden border border-gray-800 hover:border-accentGold transition duration-300 flex flex-col">
-                    <div class="aspect-[3/4] bg-gray-800 relative overflow-hidden">
-                        <img src="2024_LIFESTYLEMAG_Journal_josefine_jensen_aberto_compressed_page-0001.jpg" alt="Josefine Haaning Jensen Edition" onerror="this.src='https://images.unsplash.com/photo-1524504388940-b1c1722653e1?q=80&w=600&auto=format&fit=crop'" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
-                        <div class="absolute inset-0 bg-gradient-to-t from-darkBg via-transparent to-transparent opacity-80"></div>
-                        <div class="absolute bottom-4 left-4 right-4">
-                            <span class="text-xs text-accentGold font-semibold uppercase tracking-wider">Lifestyle Magazine</span>
-                            <h3 class="font-serif text-lg font-bold text-white">Josefine Haaning Jensen</h3>
+                    <!-- Item 3: Josefine Jensen -->
+                    <a href="https://lifestylemag.com/pt-br/edicao/josefine-haaning-jensen/" target="_blank" class="group bg-cardBg rounded-xl overflow-hidden border border-gray-800 hover:border-accentGold transition duration-300 flex flex-col">
+                        <div class="aspect-[3/4] bg-gray-800 relative overflow-hidden">
+                            <img src="2024_LIFESTYLEMAG_Journal_josefine_jensen_aberto_compressed_page-0001.jpg" alt="Josefine Haaning Jensen Edition" onerror="this.src='https://images.unsplash.com/photo-1524504388940-b1c1722653e1?q=80&w=600&auto=format&fit=crop'" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+                            <div class="absolute inset-0 bg-gradient-to-t from-darkBg via-transparent to-transparent opacity-80"></div>
+                            <div class="absolute bottom-4 left-4 right-4">
+                                <span class="text-xs text-accentGold font-semibold uppercase tracking-wider">Lifestyle Magazine</span>
+                                <h3 class="font-serif text-base font-bold text-white">Josefine Haaning Jensen</h3>
+                            </div>
                         </div>
-                    </div>
-                    <div class="p-4 flex items-center justify-between text-xs text-gray-400 bg-darkBg/50">
-                        <span>Read Edition</span>
-                        <i class="fa-solid fa-arrow-up-right-from-square text-accentGold"></i>
-                    </div>
-                </a>
+                        <div class="p-3 flex items-center justify-between text-xs text-gray-400 bg-darkBg/50">
+                            <span>Read Edition</span>
+                            <i class="fa-solid fa-arrow-up-right-from-square text-accentGold"></i>
+                        </div>
+                    </a>
+                </div>
             </div>
         </div>
     </section>
