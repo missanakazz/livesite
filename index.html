@@ -32,44 +32,52 @@
 <body class="bg-darkBg text-gray-100 font-sans antialiased selection:bg-accentGold selection:text-darkBg">
 
     <!-- Header / Navigation -->
-    <header class="fixed top-0 left-0 w-full z-50 bg-darkBg/80 backdrop-blur-md border-b border-gray-800">
+    <header class="fixed top-0 left-0 w-full z-50 bg-darkBg/85 backdrop-blur-md border-b border-gray-800">
         <div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
             <a href="#" class="font-serif text-2xl font-bold tracking-wider text-accentGold">
                 ANA KAZZ
             </a>
-            <nav class="hidden md:flex space-x-8 text-sm font-medium tracking-wide">
+            <nav class="hidden md:flex space-x-6 text-sm font-medium tracking-wide">
                 <a href="#dj" class="hover:text-accentGold transition">01. DJ & Sound</a>
                 <a href="#sports" class="hover:text-accentGold transition">02. Sports Management</a>
                 <a href="#research" class="hover:text-accentGold transition">03. Fan Research</a>
                 <a href="#copy" class="hover:text-accentGold transition">04. Copywriter</a>
+                <a href="mailto:ana.costa@phd.iag.puc-rio.br" class="text-accentGold hover:text-white transition flex items-center gap-1">
+                    <i class="fa-solid fa-envelope"></i> 05. Contact
+                </a>
             </nav>
             <div class="flex items-center space-x-4">
-                <a href="https://missanakazz.github.io/research/" target="_blank" class="text-xs uppercase tracking-widest px-4 py-2 border border-accentGold text-accentGold hover:bg-accentGold hover:text-darkBg transition rounded-full font-semibold">
+                <a href="https://missanakazz.github.io/research/" target="_blank" class="text-xs uppercase tracking-widest px-4 py-2 border border-accentGold text-accentGold hover:bg-accentGold hover:text-darkBg transition rounded-full font-semibold hidden sm:inline-block">
                     Academic Site <i class="fa-solid fa-arrow-up-right-from-square ml-1"></i>
                 </a>
             </div>
         </div>
     </header>
 
-    <!-- Hero Section with Mantra -->
-    <section class="relative min-h-screen flex items-center justify-center pt-24 pb-16 px-6 overflow-hidden">
-        <div class="absolute inset-0 opacity-10 bg-[radial-gradient(#d4af37_1px,transparent_1px)] [background-size:24px_24px]"></div>
-        <div class="max-w-4xl mx-auto text-center relative z-10">
+    <!-- Hero Section with Header Image & Mantra -->
+    <section class="relative min-h-[90vh] flex flex-col items-center justify-center pt-28 pb-16 px-6 overflow-hidden">
+        <!-- Header Image Background / Showcase -->
+        <div class="absolute inset-0 z-0">
+            <img src="header_site" alt="Ana Kazz Header" onerror="this.src='https://images.unsplash.com/photo-1511578314322-379afb476865?q=80&w=1600&auto=format&fit=crop'" class="w-full h-full object-cover opacity-20">
+            <div class="absolute inset-0 bg-gradient-to-b from-darkBg/70 via-darkBg/90 to-darkBg"></div>
+        </div>
+
+        <div class="max-w-4xl mx-auto text-center relative z-10 mt-8">
             <span class="text-accentGold text-sm uppercase tracking-[0.3em] font-semibold mb-4 block">
                 Strategy • Sound • Science • Storytelling
             </span>
             <h1 class="font-serif text-3xl md:text-5xl lg:text-6xl font-medium italic text-gray-200 leading-tight mb-8">
                 "Lokah Samastah Sukhino Bhavantu"
             </h1>
-            <p class="text-gray-400 text-lg md:text-xl font-light max-w-2xl mx-auto mb-10">
+            <p class="text-gray-300 text-lg md:text-xl font-light max-w-2xl mx-auto mb-10">
                 May all beings everywhere be happy and free. Uniting cultural curation, sports event delivery, academic fan research, and powerful narratives.
             </p>
             <div class="flex flex-wrap justify-center gap-4">
                 <a href="#dj" class="px-8 py-3 bg-accentGold text-darkBg font-semibold rounded-full hover:bg-white transition shadow-lg shadow-accentGold/20">
                     Explore My Universe
                 </a>
-                <a href="https://missanakazz.github.io/research/" target="_blank" class="px-8 py-3 border border-gray-600 text-gray-300 font-semibold rounded-full hover:border-accentGold hover:text-accentGold transition">
-                    View Academic Profile
+                <a href="mailto:ana.costa@phd.iag.puc-rio.br" class="px-8 py-3 border border-accentGold text-accentGold font-semibold rounded-full hover:bg-accentGold hover:text-darkBg transition">
+                    Get in Touch
                 </a>
             </div>
         </div>
@@ -111,26 +119,34 @@
                 <p class="text-gray-400 text-lg">Managing and delivering world-class sports hospitality and experiences.</p>
             </div>
 
-            <!-- Visual banner reference -->
-            <div class="mb-16 rounded-2xl overflow-hidden border border-gray-800 bg-cardBg p-8 md:p-12 relative">
-                <div class="absolute inset-0 bg-gradient-to-r from-darkBg via-transparent to-darkBg opacity-80 pointer-events-none"></div>
-                <div class="relative z-10 grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
-                    <div>
+            <!-- Visual banner reference using site_profissional image -->
+            <div class="mb-16 rounded-2xl overflow-hidden border border-gray-800 bg-cardBg relative shadow-2xl">
+                <div class="grid grid-cols-1 lg:grid-cols-2 items-center">
+                    <div class="p-8 md:p-12">
                         <span class="text-xs uppercase tracking-widest text-accentGold font-semibold">Strategic Impact</span>
-                        <h3 class="text-2xl font-serif font-bold mt-1 mb-4">Global Sports & Entertainment Expertise</h3>
-                        <p class="text-gray-300 text-sm leading-relaxed mb-4">
+                        <h3 class="text-2xl md:text-3xl font-serif font-bold mt-1 mb-4">Global Sports & Entertainment Expertise</h3>
+                        <p class="text-gray-300 text-sm md:text-base leading-relaxed mb-6">
                             Bridging operational execution and high-level strategy across international sports organizations, mega-events, and federations. Over 20 years of expertise driving brand development, fan engagement, and multidisciplinary project management.
                         </p>
+                        <!-- LinkedIn Profile Link Button -->
+                        <div class="mb-6">
+                            <a href="https://www.linkedin.com/in/anakazz/" target="_blank" class="inline-flex items-center px-5 py-2.5 bg-[#0077b5] text-white text-sm font-semibold rounded-lg hover:bg-[#005582] transition shadow-md">
+                                <i class="fa-brands fa-linkedin-in mr-2 text-base"></i> Connect on LinkedIn
+                            </a>
+                        </div>
+                        <div class="flex gap-6">
+                            <div>
+                                <span class="block text-2xl font-bold text-accentGold font-serif">20+</span>
+                                <span class="text-xs text-gray-400">Years Experience</span>
+                            </div>
+                            <div>
+                                <span class="block text-2xl font-bold text-accentGold font-serif">FIFA / IOC</span>
+                                <span class="text-xs text-gray-400">Major Events</span>
+                            </div>
+                        </div>
                     </div>
-                    <div class="grid grid-cols-2 gap-4 text-center">
-                        <div class="bg-darkBg/60 p-4 rounded-xl border border-gray-800">
-                            <span class="block text-2xl font-bold text-accentGold font-serif">20+</span>
-                            <span class="text-xs text-gray-400">Years Experience</span>
-                        </div>
-                        <div class="bg-darkBg/60 p-4 rounded-xl border border-gray-800">
-                            <span class="block text-2xl font-bold text-accentGold font-serif">FIFA / IOC</span>
-                            <span class="text-xs text-gray-400">Major Events</span>
-                        </div>
+                    <div class="h-full min-h-[300px] lg:min-h-[400px] relative bg-gray-900">
+                        <img src="site_profissional" alt="Ana Kazz Sports Management" onerror="this.src='https://images.unsplash.com/photo-1517649763962-0c6232660102?q=80&w=1000&auto=format&fit=crop'" class="w-full h-full object-cover">
                     </div>
                 </div>
             </div>
@@ -162,7 +178,7 @@
                     <h3 class="text-xl font-serif font-bold text-accentGold mb-6 flex items-center">
                         <i class="fa-solid fa-briefcase mr-3"></i> Selected Clients & Roles
                     </h3>
-                    <div class="space-y-4 text-sm text-gray-300 max-h-[600px] overflow-y-auto pr-2 custom-scrollbar">
+                    <div class="space-y-4 text-sm text-gray-300 max-h-[600px] overflow-y-auto pr-2">
                         <div class="p-4 rounded-lg bg-darkBg/50 border border-gray-800/80">
                             <div class="font-semibold text-white">Brazilian Volleyball Confederation</div>
                             <div class="text-xs text-accentGold">Fan Experience Consultant (Since 05/2026)</div>
